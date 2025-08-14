@@ -30,7 +30,7 @@ export default function ChatPanel() {
   };
 
   return (
-    <div className="flex h-[calc(100vh-30px)] w-full flex-col rounded-xl border bg-white bg-chat-box-gradient">
+    <div className="flex h-[calc(100vh-10px)] w-full flex-col rounded-xl border bg-white bg-chat-box-gradient">
       <div className="relative">
         <div className="absolute top-2 left-2">
           <ChatHeaderMenu />
