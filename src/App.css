@@ -1,7 +1,5 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -36,10 +34,16 @@
   }
 }
 
-.card {
-  padding: 2em;
+/* Hide vertical/horizontal scrollbar but keep scrolling */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE & old Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-.read-the-docs {
-  color: #888;
+.scrollbar-hide::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  /* Chrome/Safari/Opera */
 }
