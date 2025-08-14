@@ -16,6 +16,9 @@
 
   --radius-2lg: 0.625;
 
+  --background-image-chat-box-gradient: linear-gradient(180deg,
+      rgba(215, 208, 255, 0.2),
+      rgba(203, 221, 255, 0.5));
 
 }
 
