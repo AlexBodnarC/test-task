@@ -1,11 +1,16 @@
 import './App.css';
+import { TopBar } from './components/top-bar';
 
 function App() {
   return (
-    <div className="w-[980px]">
-      <div className="bg-black h-[800px] "></div>
-
-      <div></div>
+    <div className="flex gap-x-4">
+      <div className="w-[460px]"></div>
+      <div className="min-w-[980px]">
+        <div className="pt-2 pb-1.5">
+          <TopBar />
+        </div>
+        <div className="bg-black h-[calc(100vh-50px)]"></div>
+      </div>
     </div>
   );
 }
